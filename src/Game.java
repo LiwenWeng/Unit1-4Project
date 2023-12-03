@@ -120,7 +120,7 @@ public class Game {
     
     -------------------------
                                            """, "Yellow"));
-            System.out.println("Welcome to Placeholder!");
+            System.out.println("Welcome to Nexus Rush!");
             System.out.println(Utils.color("------------------------------------------------------", "Yellow"));
             System.out.println("Fight through 10 waves of enemies to win.");
             System.out.println();
