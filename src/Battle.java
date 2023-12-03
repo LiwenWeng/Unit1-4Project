@@ -10,13 +10,14 @@ public class Battle {
     private volatile static boolean stunned;
     private static int blockStreak;
     private static String title = Utils.color("""
-         ___ _      _   ___ ___ _  _  ___  _    ___  ___ ___ 
-        | _ \\ |    /_\\ / __| __| || |/ _ \\| |  |   \\| __| _ \\
-        |  _/ |__ / _ \\ (__| _|| __ | (_) | |__| |) | _||   /
-        |_| |____/_/ \\_\\___|___|_||_|\\___/|____|___/|___|_|_\\
+             _   _                       ____            _    
+            | \\ | | _____  ___   _ ___  |  _ \\ _   _ ___| |__ 
+            |  \\| |/ _ \\ \\/ / | | / __| | |_) | | | / __| '_ \\
+            | |\\  |  __/>  <| |_| \\__ \\ |  _ <| |_| \\__ \\ | | |
+            |_| \\_|\\___/_/\\_\\\\__,_|___/ |_| \\_\\\\__,_|___/_| |_|
 
-        -----------------------------
-                                           """, "Purple");
+            -----------------------------
+                                               """, "Purple");
 
     public static void start(Player player, Enemy[] enemies, Scanner scan, int wave) {
         Utils.clearScreen();
